@@ -66,8 +66,8 @@ function App() {
                 {!todos || !todos.length ? (
                     <h3 style={{ textAlign: "center" }}>No Todo Data !!!</h3>
                 ) : (
-                    todos.map((todo) => (
-                        <div className="todo" key={todo._id}>
+                    todos.map((todo, index) => (
+                        <div className="todo" key={index}>
                             <div
                                 onClick={() => handleTodoClick(todo._id)}
                                 className={todo.complete ? "complete" : ""}
