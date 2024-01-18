@@ -8,9 +8,9 @@
       "type": "image/x-icon"
     },
     {
-      "src": "checklist256.ico",
+      "src": "checklist100.png",
       "type": "image/x-icon",
-      "sizes": "256x256"
+      "sizes": "100x100"
     },
     {
       "src": "checklist512.ico",
