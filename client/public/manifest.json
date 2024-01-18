@@ -1,20 +1,20 @@
 {
-  "short_name": "Todo List Application",
-  "name": "Create React App Sample",
+  "short_name": "Todo List App",
+  "name": "Todo List Application",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "checklist.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
+      "src": "checklist256.ico",
+      "type": "image/x-icon",
+      "sizes": "256x256"
     },
     {
-      "src": "logo512.png",
-      "type": "image/png",
+      "src": "checklist512.ico",
+      "type": "image/x-icon",
       "sizes": "512x512"
     }
   ],
