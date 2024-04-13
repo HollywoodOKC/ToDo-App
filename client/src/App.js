@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import deleteIcon from "./assets/red-delete-10437.svg";
 
-const BASE_URL = "http://192.168.0.6:5000/api";
+const BASE_URL = "http://192.168.0.7:5000/api";
 
 function App() {
     const [todos, setTodos] = useState([]);
@@ -11,7 +11,7 @@ function App() {
 
     useEffect(() => {
         getTodos();
-    }, [todos]);
+    }, [todo]);
 
     const getTodos = () => {
         axios
